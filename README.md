@@ -1,23 +1,26 @@
-# sv
+# Type Master - Typing Game
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Type Master is a browser-based typing game built with SvelteKit and TypeScript. Test and improve your typing speed and accuracy with this fun and interactive application.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Multiple Game Screens**: Title screen, Game screen, and Result screen
+- **Interactive Keyboard UI**: Visual keyboard with highlighted keys to help you type
+- **Real-time Feedback**: Instant feedback on typing accuracy
+- **Score Tracking**: Keep track of your typing speed and score
+- **Responsive Design**: Works on both desktop and mobile devices
 
+## Installation
+
+1. Clone the repository
+2. Install dependencies
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+npm install
 ```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+To start the development server:
 ```bash
 npm run dev
 
@@ -25,14 +28,43 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+This will start the development server at `http://localhost:5173`
 
-To create a production version of your app:
+## Building for Production
 
+To create a production build:
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+To preview the production build:
+```bash
+npm run preview
+```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Game Rules
+
+- Type the displayed words as fast and accurately as you can
+- Each correctly typed character earns you points
+- The game lasts for 60 seconds
+- Your final score is displayed at the end
+
+## Tech Stack
+
+- SvelteKit 2.x
+- Svelte 5.x
+- TypeScript
+- Vite 6.x
+
+## Future Enhancements
+
+- Difficulty levels (Easy, Medium, Hard)
+- Custom time limits
+- Theme customization
+- High score leaderboard
+- User accounts
+- Multiplayer mode
+
+## License
+
+MIT
