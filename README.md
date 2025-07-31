@@ -1,5 +1,6 @@
 # Type Master - Typing Game
 
+update
 Type Master is a browser-based typing game built with SvelteKit and TypeScript. Test and improve your typing speed and accuracy with this fun and interactive application.
 
 ## Features
